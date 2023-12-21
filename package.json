@@ -1,0 +1,18 @@
+{
+  "name": "intermanagament",
+  "version": "1.0.0",
+  "description": "This is Inter Managemnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[1;5y\u001b[1;5y(https://github.com/Ducbii4202/Inter-Management.git)"
+  },
+  "author": "Ducbii",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
