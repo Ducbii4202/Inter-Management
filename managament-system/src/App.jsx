@@ -1,36 +1,12 @@
-// src/App.js
-import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import StudentList from "./components/StudentList";
-import Assignment from "./components/Assignment";
-import InternshipTime from "./components/InternshipTime";
+// JSX : Javascript XML (là định dạng cho phép ta viết html trg React)
+// ES6
+// Babel
+// curly braces {}
 
-const App = () => {
-  return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/students">Danh sách sinh viên</Link>
-            </li>
-            <li>
-              <Link to="/assignments">Bài tập</Link>
-            </li>
-            <li>
-              <Link to="/internship-time">Thời gian thực tập</Link>
-            </li>
-          </ul>
-        </nav>
+import "./App.css";
+import Photos from "./components/photo/Photos";
 
-        <hr />
-
-        <Route path="/students" component={StudentList} />
-        <Route path="/assignments" component={Assignment} />
-        <Route path="/internship-time" component={InternshipTime} />
-      </div>
-    </Router>
-  );
-};
-
+function App() {
+  return <Photos></Photos>;
+}
 export default App;

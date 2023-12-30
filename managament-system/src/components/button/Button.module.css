@@ -1,0 +1,21 @@
+/*
+container
+elementContainer
+*/
+.button {
+  display: inline-block;
+  padding: 20px 30px;
+  color: rgb(192, 72, 170);
+  font-size: 16px;
+  background-color: #74af1b;
+  border-radius: 8px;
+  width: 300px;
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+.buttonSecondary {
+  background-color: transparent;
+  color: #551f61;
+  border: 1px solid currentColor;
+}
